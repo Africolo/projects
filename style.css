@@ -73,7 +73,7 @@ button {
   color: white;
   margin: 10px;
   padding: 10px;
-  border-radius: 25px;
+  border-radius: 15px;
 }
 .wrapper {
   position: absolute;
@@ -82,4 +82,61 @@ button {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+}
+.info {
+  background-color: white;
+}
+h2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+  font-size: 35px;
+}
+.image {
+  border: 5px solid #3882f6;
+  width: 150px;
+  height: 150px;
+  border-radius: 15px;
+}
+.images {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 25px;
+  margin-top: 40px;
+}
+.sub {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0;
+}
+#text {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  margin-left: 200px;
+}
+#text-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  margin-left: 20px;
+}
+#text-3 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+}
+#text-4 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 225px;
+  margin-right: 150px;
 }
