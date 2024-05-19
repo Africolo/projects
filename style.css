@@ -146,7 +146,7 @@ h2 {
   background-color: #e5e7eb;
 }
 .quote-txt {
-  color: #1f2937;
+  color: hsl(216, 45%, 13%);
   font-style: italic;
   font-weight: 300;
   width: 789px;
@@ -167,4 +167,27 @@ h2 {
   align-items: flex-end;
   justify-content: flex-end;
   margin-right: 200px;
+}
+.action {
+  margin-top: 100px;
+  margin-left: 100px;
+  color: #f9faf8;
+  background-color: #3882f6;
+  width: 850px;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  border-radius: 15px;
+}
+.logo {
+  margin-left: 40px;
+  width: 550px;
+}
+#bln {
+  font-weight: bold;
+  border: 2px solid white;
+  height: 35px;
+  border-radius: 5px;
 }
